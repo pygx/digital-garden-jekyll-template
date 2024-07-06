@@ -18,7 +18,8 @@ open_external_links_in_new_tab: true
 embed_tweets: false
 
 markdown: kramdown
-timezone: +800
+
+timezone: Asia/Shanghai
 
 permalink:           pretty
 relative_permalinks: false
