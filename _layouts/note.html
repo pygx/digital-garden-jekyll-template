@@ -59,13 +59,12 @@ layout: default
 
   <div id="notes-entry-container">
     <div class="nav">
-      <h3 >目录</h3>
           {% include toc.html html=content %}
     </div>
 
     <div class="content">
       {{ content }}
-      <p>EOF</p>
+      <!-- <p>EOF</p> -->
     </div>
 
     <div class="side">
@@ -91,6 +90,6 @@ layout: default
 
 <hr>
 
-<p>关系图谱</p>
+<p>总览</p>
 
 {% include notes_graph.html %}

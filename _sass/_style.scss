@@ -123,22 +123,26 @@ nav {
 
 #notes-entry-container {
   width: 70em;
-  margin-left: 0em;
+  margin-left: -8em;
   display: flex;
   flex-direction: row;
   .content{
-      width: 45em;
+      width: 48em;
+  }
+  .side{
+    width: 20em;
+    margin-left: 5em;
   }
   .nav{
       padding: 1em;
+      top: 0em;
       border-left: -1em solid #efefef;
-      width: 12em;
+      margin-left: 0em;
+      margin-bottom: 5em;
+      width: 10em;
+      height: fit-content;
       position: -webkit-sticky;
       position: sticky;
-      top: 1em;
-      margin-bottom: 5em;
-      height: fit-content;
-      margin-left: -1em;
       ul{
           margin-left: -2em;
           list-style-type: revert;
