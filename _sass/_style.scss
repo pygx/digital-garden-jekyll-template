@@ -27,6 +27,7 @@ time {
   display: block;
   color: $color-subtext;
   margin: 0.5em 0 1em;
+  text-align: center;
 }
 
 footer {
@@ -64,7 +65,10 @@ hr {
   background: $color-border;
 }
 
-h1,
+h1 {
+  text-align: center;
+}
+
 h2,
 h3,
 h4,
@@ -123,11 +127,12 @@ nav {
 
 #notes-entry-container {
   width: 70em;
-  margin-left: -8em;
+  margin-left: 0em;
   display: flex;
   flex-direction: row;
   .content{
-      width: 48em;
+    width: 48em;
+    margin-left: 3em;
   }
   .side{
     width: 20em;
@@ -139,7 +144,7 @@ nav {
       border-left: -1em solid #efefef;
       margin-left: 0em;
       margin-bottom: 5em;
-      width: 10em;
+      width: 15em;
       height: fit-content;
       position: -webkit-sticky;
       position: sticky;
